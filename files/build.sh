@@ -45,7 +45,7 @@ function get_app_build(){
 }
 
 function cleanup() {
-    rm -rf "$source_dir" "pack_dir"
+    rm -rf "$source_dir" "$pack_dir"
 }
 
 trap cleanup exit
