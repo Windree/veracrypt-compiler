@@ -1,0 +1,8 @@
+Package: veracrypt
+Version: ${VERACRYPT_VERSION}.${BUILD_TIME}
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: libfuse2, libpcsclite1
+Maintainer: VeraCrypt
+Description: Custom compiled VeraCrypt binary for $NAME $VERSION_ID. Statically linked with wxWidgets to ensure compatibility with $PRETTY_NAME.
