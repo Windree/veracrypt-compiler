@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:26.04
 ARG BUILD_PACKAGES="git gettext-base build-essential yasm pkg-config nasm libfuse-dev libpcsclite-dev libwxgtk3.2-dev libgtk-3-dev" \
     DEBIAN_FRONTEND=noninteractive
 ADD files /
