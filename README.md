@@ -1,4 +1,4 @@
-# VeraCrypt compiler from the official GitHub source (For Ubuntu 24.04 LTS Noble Numbat)
+# VeraCrypt compiler from the official GitHub source (For Ubuntu 26.04 LTS Noble Numbat)
 ## Requirements
 1. docker
 ## Compile
